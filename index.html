@@ -1,7 +1,63 @@
-<html>
-  <div>
-    <p>
-      placeholder text
-    </P>
-  </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
+    <title>SnekTek</title>
+</head>
+<body>
+    <div id="topnav">
+        <img id="logo" src="logo.png" alt="SnekTek logo"></img>
+        <button class="navbtn float-right" onclick="location.href = './products';">Products</button>
+        <button class="navbtn float-right" onclick="location.href = './contact';">Contact us</button>
+        <button class="navbtn float-right" onclick="location.href = './about';">About</button>
+        <button class="navbtn float-right" style="color: lightgrey;" onclick="location.href = './';">Home</button>
+    </div>
+</body>
+<style>
+    body{
+        padding: 0;
+        margin: 0;
+        background-color: #2b2b2b;
+        color: white;
+        font-family: 'Kanit', sans-serif;
+    }
+    #logo{
+        height: 40px;
+        position: relative;
+        left: 5px;
+        top: 10%;
+
+        
+    }
+    #topnav{
+        background-color: #1b1b1b;
+        height: 50px;
+        width: 100vw;
+        align-items: center;
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .navbtn{
+        height: 100%;
+        border: none;
+        background-color: transparent;
+        color: white;
+        font-family: 'Kanit', sans-serif;
+        
+    }
+    .navbtn:hover{
+        background-color: transparent;
+        color: lightgrey;
+    }
+    .navbtn:focus {
+        outline: none;
+      }
+</style>
 </html>
